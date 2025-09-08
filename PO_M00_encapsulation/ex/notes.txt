@@ -1,0 +1,3 @@
+Erreurs sur le sujet ?
+ex pour ex00?
+auto est du cpp11, or on nous demande de travailler en 98. Doit-on modifier cela (avec un fichier main.cpp et modifier le auto?) ou erreur de compilateur dans le sujet?

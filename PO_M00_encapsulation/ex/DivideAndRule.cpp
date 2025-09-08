@@ -57,6 +57,15 @@ int main()
 	bank.clientAccounts.push_back(&accountA);
 	bank.clientAccounts.push_back(&accountB);
 
+	std::cout << "Account : " << std::endl;
+	std::cout << accountA << std::endl;
+	std::cout << accountB << std::endl;
+
+	std::cout << " ----- " << std::endl;
+
+	std::cout << "Bank : " << std::endl;
+	std::cout << bank << std::endl;
+
 	bank.liquidity -= 200;
 	accountA.value += 400;
 
